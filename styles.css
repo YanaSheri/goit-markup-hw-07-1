@@ -203,7 +203,7 @@ ul {
     background-color: var(--hero-and-footer-bg-color);
     max-width: 1600px;
     margin: 0 auto;
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-img.jpeg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/hero-bg-img.jpeg);
     background-position: center;
     background-size: cover;
 }
