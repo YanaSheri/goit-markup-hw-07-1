@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,IAAI;CACzB",
+    "mappings": "",
     "sources": [
         "../sass/main.scss",
         "../sass/layouts/_header.scss"
