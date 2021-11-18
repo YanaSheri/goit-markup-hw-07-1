@@ -504,12 +504,7 @@ ul {
   margin-right: 70px;
 }
 
-/* ЛОГО ФУТЕРА "Studio" */
-.span-footer {
-  color: var(--white-text-color);
-}
-
-.address {
+.footer-address {
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -519,7 +514,7 @@ ul {
   margin-bottom: 9px;
 }
 
-.contacts {
+.footer-contacts {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -528,16 +523,15 @@ ul {
   display: block;
 }
 
-.contacts:not(:last-child) {
+.footer-contacts:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.contacts:hover,
-.contacts:focus {
+.footer-contacts:hover, .footer-contacts:focus {
   color: var(--accent-color);
 }
 
-.right-footer-text {
+.footer-right-title {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
