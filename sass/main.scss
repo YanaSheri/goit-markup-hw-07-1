@@ -1,16 +1,19 @@
 
 @import './base/colors';
 @import './base/global';
-@import './base/logo';
+@import './components/logo';
 @import './layouts/header';
 @import './components/container';
 @import './layouts/header';
 @import './layouts/nav';
 @import './layouts/hero';
+@import './layouts/features';
 @import './components/btn';
 @import './layouts/section';
 @import './components/title';
 
-@import './layouts/works';
-
+@import './layouts/activity';
+@import './layouts/team';
+@import './layouts/socials';
+@import './layouts/footer';
 

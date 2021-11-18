@@ -268,11 +268,10 @@ ul {
 
 /* --- СЕКЦИЯ "ОСОБЕННОСТИ" --- */
 
-.features-list {
+/* .features-list {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    /* outline: 5px dotted red; */
 }
 
 .features-item {
@@ -302,7 +301,7 @@ ul {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--p-text-color);
-}
+} */
 
 /* --- СЕКЦИЯ "ЧЕМ МЫ ЗАНИМАЕМСЯ" --- */
 
@@ -310,42 +309,36 @@ ul {
     padding-top: 0;
 } */
 
-.works-list {
+/* .activity-list {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-}
-
-/* .works-item {
-    position: relative;
 } */
 
-.works-item:not(:last-child) {
-    /* position: relative; */
+/* .activity-item:not(:last-child) {
     margin-right: 30px;
-}
+} */
 
-.works-item-link{
+/* .activity-item-link{
     position: relative;
     text-decoration: none;
-}
+} */
 
 /* .works-img {
     display: flex;
 } */
 
-.works-item-subblock {
+/* .activity-item-subblock {
     position: absolute;
     width: 100%;
     bottom: 0;
     padding-top: 27px;
     padding-bottom: 27px;
     background-color: rgba(47, 48, 58, 0.8);
-    /* z-index: 1; */
-}
+} */
 
-.works-item-title {
+/* .activity-item-title {
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -353,15 +346,15 @@ ul {
     text-transform: uppercase;
 
     color: var(--white-text-color);
-}
+} */
 
 /* --- СЕКЦИЯ "НАША КОМАНДА" --- */
 
-.team {
+/* .team {
     background-color: var(--team-section-bg-color);
-}
+} */
 
-.team-list {
+/* .team-list {
     list-style: none;
     display: flex;
     margin-top: 50px;
@@ -370,17 +363,17 @@ ul {
 .team-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
+} */
 
-.team-item:not(:last-child) {
+/* .team-item:not(:last-child) {
     margin-right: 30px;
 }
 
 .team-img {
     display: block;
-}
+} */
 
-.img-footer {
+/* .img-footer {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
@@ -404,9 +397,9 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--p-text-color);
-}
+} */
 
-.team-icons-list {
+/* .team-icons-list {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -445,7 +438,7 @@ ul {
 .team-icons-link:hover .team-svg,
 .team-icons-link:focus .team-svg {
     fill: var(--white-text-color);
-}
+} */
 
 /* --- СЕКЦИЯ "ПОСТОЯННЫЕ КЛИЕНТЫ" --- */
 
@@ -493,7 +486,7 @@ ul {
 
 /* ================== FOOTER ===================== */
 
-.footer {
+/* .footer {
     background-color: var(--hero-and-footer-bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -502,14 +495,14 @@ ul {
 .footer-container {
     display: flex;
     align-items: baseline;
-    /* outline: 2px dotted red; */
-}
-.left-footer {
-    margin-right: 70px;
 }
 
+.left-footer {
+    margin-right: 70px;
+} */
+
 /* ЛОГО ФУТЕРА "Studio" */
-.span-footer {
+/* .span-footer {
     color: var(--white-text-color);
 }
 
@@ -581,11 +574,11 @@ ul {
 .footer-icons-link:hover,
 .footer-icons-link:focus {
     background-color: var(--accent-color);
-}
+} */
 
 /* -------- ФОРМА ФУТЕРА -------- */
 
-.footer-form-div {
+/* .footer-form-div {
     margin-left: 93px;
 }
 
@@ -637,7 +630,7 @@ ul {
     height: 24px;
     fill: var(--white-text-color);
     margin-left: 10px;
-}
+} */
 
 /*  ============== MODAL ============== */
 

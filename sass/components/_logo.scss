@@ -1,4 +1,4 @@
-.logo-link {
+.logo {
     display: flex;
     align-items: center;
 
@@ -10,17 +10,14 @@
     text-decoration: none;
     margin-right: 90px;
     height: 100%;
-    .span {
+    .logo-blue {
         display: flex;
         align-items: center;
         color: var(--accent-color);
         height: 100%;
     }
+    .logo-white {
+        color: var(--white-text-color);
+    }
 }
 
-// .logo-link .span {
-//     display: flex;
-//     align-items: center;
-//     color: var(--accent-color);
-//     height: 100%;
-// }
