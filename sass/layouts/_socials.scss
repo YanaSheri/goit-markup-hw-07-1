@@ -2,7 +2,7 @@
     display: flex;
     list-style: none;
     justify-content: center;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .socials-list__item {
@@ -20,6 +20,9 @@
     justify-content: center;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &.bgc-dark {
+         background-color: var(--footer-bg-icon-color);
+    }
     &:hover, 
     &:focus {
         background-color: var(--accent-color);
@@ -27,23 +30,18 @@
     &:hover .socials-list__svg, 
     &:focus .socials-list__svg {
         fill: var(--white-text-color);
-    }
+    } 
 }
 
 .socials-list__svg {
     width: 20px;
     height: 20px;
-    fill: var(--icon-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &.color-gray {
+        fill: var(--icon-color);
+    }
+    &.color-white {
+        fill: var(--white-text-color);
+    }
 }
-
-// .socials-list__link:hover,
-// .socials-list__link:focus {
-//     background-color: var(--accent-color);
-// }
-
-// .socials-list__link:hover .socials-list__svg,
-// .socials-list__link:focus .socials-list__svg {
-//     fill: var(--white-text-color);
-// }

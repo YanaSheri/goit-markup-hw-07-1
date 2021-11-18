@@ -634,19 +634,16 @@ ul {
 
 /*  ============== MODAL ============== */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
-    /* transition-duration: 1000ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition: opacity; */
-}
+} */
 
-.modal {
+/* .modal {
     position: absolute;
     width: 528px;
     min-height: 580px;
@@ -658,9 +655,9 @@ ul {
     transform: translate(-50%, -50%);
     cursor: pointer;
     padding: 40px;
-}
+} */
 
-.close-btn {
+/* .close-btn {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -674,35 +671,35 @@ ul {
     box-sizing: border-box;
     cursor: pointer;
     background-color: transparent;
-}
+} */
 
-.close-btn:hover .close-svg {
+/* .close-btn:hover .close-svg {
     fill: var(--accent-color);
-}
+} */
 
-.close-svg {
+/* .close-svg {
     width: 18px;
     height: 18px;
     position: absolute;
     fill: var(--primary-text-color);
-}
+} */
 
-.is-hidden {
+/* .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-}
+} */
 
-.modal-title {
+/* .modal-title {
     font-weight: 700;
     font-size: 20px;
     line-height: calc(23 / 20);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-}
+} */
 
-.modal-form {
+/* .modal-form {
     margin-top: 12px;
 }
 
@@ -711,16 +708,16 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: var(--p-text-color);
-}
+} */
 
-.input-wrap {
+/* .input-wrap {
     position: relative;
     display: block;
     margin-top: 4px;
     margin-bottom: 10px;
-}
+} */
 
-.input {
+/* .input {
     background-color: transparent;
     width: 100%;
     height: 40px;
@@ -729,26 +726,26 @@ ul {
     box-sizing: border-box;
     border-radius: 4px;
     padding-left: 42px;
-}
+} */
 
-.input:focus {
+/* .input:focus {
     border: 1px solid var(--accent-color);
-}
+} */
 
-.input:focus + .name-svg {
+/* .input:focus + .name-svg {
     fill: var(--accent-color);
-}
+} */
 
-.name-svg {
+/* .name-svg {
     position: absolute;
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-}
+} */
 
-.user-comment {
+/* .user-comment {
     resize: none;
     width: 100%;
     height: 120px;
@@ -758,16 +755,16 @@ ul {
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
-}
+} */
 
-.user-comment::placeholder {
+/* .user-comment::placeholder {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
-}
+} */
 
-.textarea-wrap {
+/* .textarea-wrap {
     margin-top: 4px;
 }
 
@@ -859,7 +856,7 @@ ul {
     min-width: 200px;
 
     cursor: pointer;
-}
+} */
 
 
 /* =============== PORTFOLIO ============== */
