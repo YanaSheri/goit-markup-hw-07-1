@@ -442,7 +442,7 @@ ul {
 
 /* --- СЕКЦИЯ "ПОСТОЯННЫЕ КЛИЕНТЫ" --- */
 
-.clients-list {
+/* .clients-list {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -482,7 +482,7 @@ ul {
 .clients-icons-link:hover .clients-svg,
 .clients-icons-link:focus .clients-svg {
     fill: var(--accent-color);
-}
+} */
 
 /* ================== FOOTER ===================== */
 
