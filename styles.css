@@ -9,7 +9,7 @@
     акцент #2196F3 
 */
 
-:root {
+/* :root {
     --primary-text-color: #212121;
     --p-text-color: #757575;
     --white-text-color: #FFFFFF;
@@ -21,9 +21,9 @@
     --icon-color: #AFB1B8;
     --footer-bg-icon-color: #44454E;
     --portfolio-card-border-color: #EEEEEE;
-}
+} */
 
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -32,11 +32,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
-}
+} */
 
 /* =========== COMMON STYLES ========== */
 
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -46,37 +46,37 @@ h6,
 ul {
     margin: 0;
     padding: 0;
-}
+} */
 
-.container {
+/* .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* ================= HEADER ================*/
 
-.header {
+/* .header {
     border-bottom: 1px solid #ECECEC;
-}
+} */
 
-.header-container {
+/* .header-container {
     display: flex;
     justify-content: space-between;
     padding-top: 0;
     padding-bottom: 0;
     height: 80px;
-}
+} */
 
-.nav {
+/* .nav {
     display: flex;
     height: 100%;
-}
+} */
 
 /* ---- ЛОГОТИП ---- */
-.logo-link {
+/* .logo-link {
     display: flex;
     align-items: center;
 
@@ -88,18 +88,18 @@ ul {
     text-decoration: none;
     margin-right: 90px;
     height: 100%;
-}
+} */
 
-.logo-link .span {
+/* .logo-link .span {
     display: flex;
     align-items: center;
     color: var(--accent-color);
     height: 100%;
-}
+} */
 
 /* -------------- НАВИГАЦИЯ ------------- */
 
-.site-nav {
+/* .nav-list {
     display: flex;
 
     height: 100%;
@@ -114,8 +114,8 @@ ul {
     height: 100%;
 }
 
-.site-nav .link,
-.site-nav .link-current {
+.nav-list .link,
+.nav-list .link-current {
     display: flex;
     align-items: center;
     height: 100%;
@@ -125,12 +125,12 @@ ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link-current {
+.nav-list .link-current {
     position: relative;
     color: var(--accent-color);
 }
 
-.site-nav .link-current::after {
+.nav-list .link-current::after {
     display: block;
     position: absolute;
     bottom: 0;
@@ -142,7 +142,7 @@ ul {
 }
 
 /* ------- БЛОК КОНТАКТОВ ------- */
-.contacts-nav {
+/* .contacts-nav {
     display: flex;
     align-items: baseline;
     height: 80px;
@@ -176,7 +176,7 @@ ul {
 
 .contacts-nav .link:not(:last-child) {
     margin-right: 48px;
-}
+} */
 
 /* .contacts-nav .link {
     transition-duration: 250ms;
@@ -184,8 +184,8 @@ ul {
 } */
 
 /* - ЭФФЕКТЫ ИНТЕРАКТИВНЫХ ЭЛЕМЕНТОВ ШАПКИ - */
-.site-nav .link:hover,
-.site-nav .link:focus,
+/* .snav-list .link:hover,
+.snav-list .link:focus,
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
     color: var(--accent-color);
@@ -195,11 +195,11 @@ ul {
 .contacts-nav .link:hover .svg-header,
 .contacts-nav .link:focus .svg-header {
     fill: currentColor;
-}
+}  */
 
 /* =========== К О Н Т Е Н Т =========== */
  /* -------- ГЕРОЙ -------- */
-.hero {
+/* .hero {
     background-color: var(--hero-and-footer-bg-color);
     max-width: 1600px;
     margin: 0 auto;
@@ -217,7 +217,7 @@ ul {
 }
 
 /* ЗАГОЛОВОК ГЕРОЯ */
-.hero-title {
+/* .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -228,10 +228,10 @@ ul {
     margin: 0 auto;
     margin-bottom: 30px;
     max-width: 696px;
-}
+} */
 
 /* КНОПКА ГЕРОЯ */
-.button-primary {
+/* .button-primary {
     font-family: Roboto;
     font-weight: bold;
     font-size: 16px;
@@ -247,22 +247,22 @@ ul {
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+}  */
 
 /* -------- СЕКЦИИ -------- */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 /* ЗАГОЛОВКИ СЕКЦИЙ */
-.section-title {
+/* .section-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-}
+} */
 
 /* ============ MAIN ============= */
 
@@ -306,9 +306,9 @@ ul {
 
 /* --- СЕКЦИЯ "ЧЕМ МЫ ЗАНИМАЕМСЯ" --- */
 
-.works {
+/* .works {
     padding-top: 0;
-}
+} */
 
 .works-list {
     list-style: none;
