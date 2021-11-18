@@ -30,32 +30,32 @@
     padding: 40px;
 }
 
-// .close-btn {
-//     position: absolute;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     top: 8px;
-//     right: 8px;
-//     width: 30px;
-//     height: 30px;
-//     border-radius: 50%;
-//     border: 1px solid rgba(0, 0, 0, 0.1);
-//     box-sizing: border-box;
-//     cursor: pointer;
-//     background-color: transparent;
-// }
+.close-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent;
+}
 
-// .close-btn:hover .close-svg {
-//     fill: var(--accent-color);
-// }
+.close-btn:hover .close-svg {
+    fill: var(--accent-color);
+}
 
-// .close-svg {
-//     width: 18px;
-//     height: 18px;
-//     position: absolute;
-//     fill: var(--primary-text-color);
-// }
+.close-svg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    fill: var(--primary-text-color);
+}
 
 
 
@@ -196,4 +196,19 @@
 
 .checkbox-svg-checked {
     fill: var(--white-text-color);
+}
+
+.send-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
 }

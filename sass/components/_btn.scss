@@ -1,105 +1,14 @@
-.button-primary {
+.btn {
     font-family: Roboto;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    width: 200px;
-    height: 50px;
-    color: var(--white-text-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
-.footer-form-bnt {
-    background-color: var(--accent-color);
-    color: var(--white-text-color);
-    width: 200px;
-    height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    padding: 10px 28px;
-    margin-left: 12px;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-
-    display: flex;
-    align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
-    outline: none;
-    .send-svg {
-        width: 24px;
-        height: 24px;
-        fill: var(--white-text-color);
-        margin-left: 10px;
-    }
-}
-
-
-
-
-
-
-
-.close-btn {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.close-btn:hover .close-svg {
-    fill: var(--accent-color);
-}
-
-.close-svg {
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    fill: var(--primary-text-color);
-}
-
-
-.send-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    color: var(--white-text-color);
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
     min-width: 200px;
-
+    height: 50px;;
     cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   
 }
